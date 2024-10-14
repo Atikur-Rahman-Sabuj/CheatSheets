@@ -20,3 +20,6 @@ heappushpop(list, value)
 heappush(list, (priorityValue, someOtherValue))
 ```
 #### Fox max heap we can mulitply values with -1 and use min heap
+```
+heappush(list, -value)
+```
