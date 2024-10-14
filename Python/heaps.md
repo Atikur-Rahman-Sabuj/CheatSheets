@@ -15,6 +15,10 @@ heappop(list, value)
 ```
 heappushpop(list, value)
 ```
+### To pop minimum then push
+```
+heapreplace(list, value)
+```
 ### We can use tuple as value, first element will be the priority
 ```
 heappush(list, (priorityValue, someOtherValue))
