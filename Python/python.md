@@ -17,3 +17,10 @@ before\
 ```list = [a, b]```\
 after\
 ```list = [a, b, n, n]```
+
+### Define a 2d list with some value
+```
+list = [[2] * 3 for _ in range(2)]
+```
+result\
+```list = [[2, 2 ,2], [2, 2, 2]]```
