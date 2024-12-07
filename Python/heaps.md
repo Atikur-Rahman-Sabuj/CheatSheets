@@ -9,7 +9,7 @@ heappush(list, value)
 ```
 ### To pop value from the heap
 ```
-heappop(list, value)
+heappop(list)
 ```
 ### To push and pop value together
 ```
@@ -23,7 +23,7 @@ heapreplace(list, value)
 ```
 heappush(list, (priorityValue, someOtherValue))
 ```
-#### Fox max heap we can mulitply values with -1 and use min heap
+### Fox max heap we can mulitply values with -1 and use min heap
 ```
 heappush(list, -value)
 ```
