@@ -24,3 +24,12 @@ list = [[2] * 3 for _ in range(2)]
 ```
 result\
 ```list = [[2, 2 ,2], [2, 2, 2]]```
+
+### Character to ASCI value
+```
+ord('a')
+```
+### ASCI value to Character
+```
+char(65)
+```
