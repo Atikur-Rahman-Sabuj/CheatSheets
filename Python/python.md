@@ -31,5 +31,5 @@ ord('a')
 ```
 ### ASCI value to Character
 ```
-char(65)
+chr(65)
 ```
