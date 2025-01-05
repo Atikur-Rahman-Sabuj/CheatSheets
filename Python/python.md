@@ -29,7 +29,19 @@ result\
 ```
 ord('a')
 ```
-### ASCI value to Character
+#### ASCI value to Character
 ```
 chr(65)
+```
+### Make list of characters from string
+```
+charactersList = list(s)
+```
+#### To split by something
+```
+wordList = s.plit(" ") //splitting by space
+```
+#### To join them back
+```
+joinedString = "".join(charactersList)
 ```
