@@ -45,3 +45,11 @@ wordList = s.plit(" ") //splitting by space
 ```
 joinedString = "".join(charactersList)
 ```
+### Frequency on numbers in an array
+```
+frequency = Counter(nums)
+```
+### all method / Check if all are true in a array
+```
+all(count % 2 == 0 for count in frequency.values())
+```
