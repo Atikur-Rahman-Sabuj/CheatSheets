@@ -49,6 +49,10 @@ joinedString = "".join(charactersList)
 ```
 frequency = Counter(nums)
 ```
+### Count distinct elements in an array
+```
+count = len(set(nums))
+```
 ### all method / Check if all are true in a array
 ```
 all(count % 2 == 0 for count in frequency.values())
