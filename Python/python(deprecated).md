@@ -1,3 +1,5 @@
+### This file is depricated see the standard readme one
+
 ### To memoize function calls
 ```
 @functools.lru_cache(maxsize=None)
